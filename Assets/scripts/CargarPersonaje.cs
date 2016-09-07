@@ -35,14 +35,14 @@ public class CargarPersonaje : MonoBehaviour {
             if(contextura==1)
             {
                 //H_N_bien
-               GameObject paciente1= Instantiate(H_N_bien, new Vector3(0.0f, -140.0f, 125.0f), Quaternion.identity) as GameObject;
+               GameObject paciente1= Instantiate(H_N_bien, new Vector3(0.0f, -105.0f, 125.0f), Quaternion.identity) as GameObject;
                 paciente1.transform.localScale=new Vector3(100f, 100f, 100f);
                 paciente1.transform.Rotate(new Vector3(0,1,0),180);
             }
             if(contextura==2)
             {
                 //H_N_obeso
-                GameObject paciente2 = Instantiate(H_N_obeso, new Vector3(0.0f, -140.0f, 125.0f), Quaternion.identity) as GameObject;
+                GameObject paciente2 = Instantiate(H_N_obeso, new Vector3(0.0f, -105.0f, 125.0f), Quaternion.identity) as GameObject;
                 paciente2.transform.localScale = new Vector3(100f, 100f, 100f);
                 paciente2.transform.Rotate(new Vector3(0, 1, 0), 180);
             }
@@ -52,14 +52,14 @@ public class CargarPersonaje : MonoBehaviour {
             if (contextura == 1)
             {
                 //H_B_bien
-                GameObject paciente3 = Instantiate(H_B_bien, new Vector3(0.0f, -140.0f, 125.0f), Quaternion.identity) as GameObject;
+                GameObject paciente3 = Instantiate(H_B_bien, new Vector3(0.0f, -105.0f, 125.0f), Quaternion.identity) as GameObject;
                 paciente3.transform.localScale = new Vector3(100f, 100f, 100f);
                 paciente3.transform.Rotate(new Vector3(0, 1, 0), 180);
             }
             if (contextura == 2)
             {
                 //H_B_obeso
-                GameObject paciente4 = Instantiate(H_B_obeso, new Vector3(0.0f, -140.0f, 125.0f), Quaternion.identity) as GameObject;
+                GameObject paciente4 = Instantiate(H_B_obeso, new Vector3(0.0f, -105.0f, 125.0f), Quaternion.identity) as GameObject;
                 paciente4.transform.localScale = new Vector3(100f, 100f, 100f);
                 paciente4.transform.Rotate(new Vector3(0, 1, 0), 180);
             }
