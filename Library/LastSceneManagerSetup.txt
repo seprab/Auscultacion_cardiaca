@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/scenes/Simulacion.unity
+- path: Assets/scenes/Diagnostico.unity
   isLoaded: 1
   isActive: 1
