@@ -22,7 +22,7 @@ public class CargarPersonaje : MonoBehaviour {
         string[] datos = File.ReadAllLines(dir);
         int raza = Int32.Parse(datos[0]);
         int contextura = Int32.Parse(datos[1]);
-        List<bool> sin = new List<bool>();
+        List<bool> sin = new List<bool>(); //listado de sintomas
         for (int i = 2; i < 6; i++)
         {
             sin.Add(Boolean.Parse(datos[i]));
